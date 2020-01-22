@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <link href="https://fonts.googleapis.com/css?family=Lato&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="style.css">
+        <title>Registration Form</title>
+    </head>
+    <body>
+        <main>
+            <h1>REGISTRATION FORM</h1>
+            <div>
+                <form id="registration-form">
+                    <label for="name" class="labels">Name:</label><br>
+                    <input type="text" placeholder="Enter your name here" id="name" required><br><br>
+                    <label for="date" class="labels">Date of Birth:</label><br>
+                    <input type="date" name="birthday" id="dateofbirth" min="0000-01-01" max="2020-01-22" required><br><br>
+                    <label for="address" class="labels">Address:</label><br>
+                    <input type="text" placeholder="Enter your address here" id="address" required><br><br>
+                    <label for="email" class="labels">Email:</label><br>
+                    <input type="email" placeholder="example@email.com" required><br><br>
+                    <label for="phonenumber" class="labels">Tel:</label><br>
+                    <input type="tel" name="phonenumber" pattern="[\+0-9]{4}-[0-9]{3}-[0-9]{3}-[0-9]{4}" placeholder="+234-000-000-0000" required><br><br>
+                    <label for="occupation" class="labels">Occupation:</label><br>
+                    <input type="text" placeholder="Enter your occupation here" id="occupation" required><br><br>
+                    <input type="submit" Value="Submit" id="submit">
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
